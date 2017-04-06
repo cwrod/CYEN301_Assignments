@@ -1,3 +1,5 @@
+#Author Christopher Rodriguez
+
 import sys
 ASCII_TABLE = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
 
@@ -13,7 +15,9 @@ def ASCII(bin_string,encode):
 		elif(n_byte==10):
 			ret_str = ret_str+"\n"	
 		elif(n_byte==13):
-			ret_str = ret_str+"\r"	
+			ret_str = ret_str+"\r"
+		elif(n_byte==0):
+			ret_str = ret_str
 		elif(n_byte>31 and n_byte<127):
 			ret_str = ret_str+ASCII_TABLE[n_byte-32]
 		else:

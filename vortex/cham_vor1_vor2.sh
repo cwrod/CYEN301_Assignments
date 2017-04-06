@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Author Christopher Rodriguez
+
 #The python script simply outputs 261 backslashes, followed by the character with a hex value of CA, followed by an unholy amount of a's
 #We then add a semicolon and the command to see the password to the end of the string and pipe it all to the vortex1 program
 #The backslashes decrement our pointer to s actual location of the pointer (256 away from it's starting position, plus 4 more because ptr is an unsigned char, plus 1 more to move right behind ptr so ptr++[0]=x rewrites on the addres of ptr
