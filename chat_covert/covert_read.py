@@ -1,6 +1,6 @@
 #This program is designed to decode a secret message based on timing delays in a chat server using a socket connection.
 
-#Usage: python chat_covert [IPADDRESS] [PORT] [f/b]
+#Usage: python chat_covert [IPADDRESS] [PORT] [f/b (encode longs as one or longs as 0)]
 #Example: python chat_covert 138.47.102.193 31337 f
 
 #Author:Chris Rodriguez of Team Chamaeleon
